@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(9, 169, 197);
+  height: 100vh;
+  width: 100%;
+}
+
+.App .table {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.App .title {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  text-transform: capitalize;
+
+}

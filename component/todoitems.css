@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+
+}
+
+form input {
+    padding: 17px;
+    text-align: center;
+    margin-top: 10px;
+    background: none;
+    text-transform: capitalize;
+    width: 26%;
+    border: 1px solid darkslategrey;
+
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input[type=text]::placeholder {
+    color: rgba(228, 234, 240, 0.664);
+}
+
+form input[type=number]::placeholder {
+    color: rgba(228, 234, 240, 0.664);
+
+}
+
+form input[type=number],
+form input[type=text] {
+
+    color: #dce1e7eb;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+form input[type=submit] {
+    font-weight: 900;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    width: 33%;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.all_data_of_table .header_of_table {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    /* align-items: stretch */
+
+}
+
+.all_data_of_table .header_of_table span {
+
+    font-size: 27px;
+    flex-basis: 25%;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    border: 2px solid darkslategrey;
+    margin-bottom: 10px;
+
+}
+
+.divOfState div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.divOfState div span {
+    font-size: 17px;
+    flex-basis: 25%;
+    padding: 20px;
+    color: #dce1e7eb;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    border: 1px solid darkslategrey;
+
+}
+
+.divOfState div :last-child {
+    cursor: pointer;
+    color: rgb(110, 16, 16);
+}
+
+/* massageof no item to show */
+.massage_no_items {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+
+
+}
